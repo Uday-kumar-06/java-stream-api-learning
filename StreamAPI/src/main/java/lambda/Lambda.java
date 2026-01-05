@@ -40,5 +40,6 @@ public class Lambda {
         //Method reference--> use method without invoking
         List<String> students = Arrays.asList("kella","uday","kumar");
         students.forEach(x -> System.out.println(x));
+        students.forEach(System.out::println);
     }
 }
